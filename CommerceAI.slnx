@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/apphost/">
+    <Project Path="CommerceAI.AppHost/CommerceAI.AppHost.AppHost/CommerceAI.AppHost.AppHost.csproj" Id="501ae382-3ce9-421e-b649-5a81e4cd05ce" />
+    <Project Path="CommerceAI.AppHost/CommerceAI.AppHost.Server/CommerceAI.AppHost.Server.csproj" />
+    <Project Path="CommerceAI.AppHost/frontend/frontend.esproj">
+      <Build />
+      <Deploy />
+    </Project>
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="CommerceAI.Application/CommerceAI.Application.csproj" Id="de6f15a8-4bc1-4457-9581-2d01d51e9037" />
+    <Project Path="CommerceAI.Domain/CommerceAI.Domain.csproj" Id="c918442e-d0c8-45e1-9737-d73d0e21d594" />
+    <Project Path="CommerceAI.Infrastructure/CommerceAI.Infrastructure.csproj" Id="88843213-8072-4cbb-8c55-3340ee70a6cf" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="CommerceAI.Domain.Tests/CommerceAI.Domain.Tests.csproj" Id="01e24f3d-75da-4b96-8b79-e9138e6700f2" />
+  </Folder>
+</Solution>
